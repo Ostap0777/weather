@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather</title>
+</head>
+<body>
+	<div class="wrapper">
+		<section class="modal hidden">
+			<div class="flex">
+				<div class="icon__modal"></div>
+				<div class="icon__info">
+					<div class="info__error"> <span class="error__smile">🥲</span> Ooops!</div>
+					<div class="info-error__reason">Please enter some city and try searching again</div>
+				</div>
+			</div>
+		</section>
+		<section class="modal2 hidden2">
+			<div class="flex2">
+				<div class="modal-weather__title">
+					<div class="modal-weather-image__boss">
+					<img class="modal-weather__image" src="#" alt="">
+				</div>
+				<div class="modal-weather-info__boss">
+					<div class="modal-weather-result__poshuk"></div>
+
+					<div class="modal-weather__date"></div>
+				</div>
+			</div>
+				<div class="weather__important">
+					<img class="weather__image" src="img/clear.png" alt="">
+					<div class="weather-boss__important">
+					<div class="weather__degrees"></div>
+					<div class="weather__opus"></div>
+				</div>
+				</div>
+				<div class="weather__additional additional">
+					<div class="additional__title">Local Weather report</div>
+					<div class="span__line"></div>
+					<div class="additional__container">
+						<div class="additional-container__info">
+							<div class="additional__feels">
+								<p class="feels__title additional-two__title">Feels Like</p>
+								<p class="feels__result  additional__result"></p>
+							</div>
+							<div class="additional__humidity">
+								<p class="humidity__title  additional-two__title">Humidity</p>
+								<p class="humidity__result additional__result"></p>
+							</div>
+							<div class="additional__sunrise">
+								<p class="sunrise__title additional-two__title">Sunrise</p>
+								<p class="sunrise__result  additional__result"></p>
+							</div>
+							<div class="additional__visibility">
+								<p class="visibility__title  additional-two__title">Visibility</p>
+								<p class="visibility__result  additional__result"></p>
+							</div>
+							<div class="additional__sunset">
+								<p class="sunset__title  additional-two__title">Sunset</p>
+								<p class="sunset__result  additional__result"></p>
+							</div>
+							<div class="pressure__pressure">
+								<p class="pressure__title  additional-two__title">pressure</p>
+								<p class="pressure__result  additional__result"></p>
+							</div>
+						</div>
+						<div class="weather__now">
+							<img class="now__image" src="#" alt="">
+							<div class="now__time"></div>
+							<div class="now__day"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="weather__container">
+			<div class="weather__title">WeatherApp</div>
+			<div class="weather__text">Provide you a world wide weather forecart</div>
+			<form action="" class="weather__poshuk form" id="form">
+			<input type="text" class="weather__input" placeholder="Enter please city">
+			<button class="weather__button">Search</button>
+		</form>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
